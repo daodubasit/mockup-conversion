@@ -1,0 +1,209 @@
+.price{
+    background-color: #68ae0a;
+    border-radius: .3em;
+    margin-right: .3em;
+    padding: .1em;
+    padding-left: .8em;
+    padding-right: .8em;
+    color: white;
+}
+
+.top-space{
+    padding-top: .2em;
+}
+
+.padding-space{
+    padding-right: 1.5em;
+}
+/* .priceee{
+    triangle
+} */
+li{
+    color: red;
+}
+.financial{
+    color: #0084ff;
+}
+
+.oil{
+    color: #bebebe;
+}
+
+.con{
+    color: #eeba47;
+}
+.internal{
+    color: #c2c6ca;
+}
+.tag{
+    padding-top: 1em;
+}
+.donut{
+    width: 8em;
+    height: auto;
+}
+.position{
+    position: absolute;
+    top: 5px;
+}
+.classWithPad { margin:10px; padding:10px; }
+.triangle-red{
+    color: orangered;
+    font-size: large!important;
+    padding-left: 3px;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+  }
+  
+.greenbtn{
+    background-color:#68ae0a;
+    border-color: #68ae0a;
+}
+.row-space{
+    padding-bottom: 10px;
+}
+.iconspace{
+    padding-right: .7em;
+}
+.portfolio{
+    border-radius: .3em!important;
+    padding: 0em;
+    padding-left: .1em;
+    padding-right: .1em;
+}
+.digits{
+    padding-left: 2em;
+}
+
+.traded{
+    padding-left: .3em;
+}
+
+.changes-price{
+    width: 10px;
+    height: auto;
+}
+
+body{
+    background-color: white;
+}
+
+.mtd{
+    padding-left: 2em;
+    font-size:10px;
+    color:#cecece;
+}
+.triangle{
+    color: #68ae0a;
+    font-size: large!important;
+    padding-left: 3px;
+}
+
+.asset-icon{
+    padding-left: .3em;
+}
+
+.shareindex{
+    padding-top: 5px;
+    font-size: 12.5px;
+    font-size: 12px;
+}
+
+
+.shareindexbtn{
+    font-size: 15px;
+    
+}
+.total{
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+p{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-bottom: .3em;
+}
+
+
+.img-top{
+    width: auto;
+    height: 4em;
+}
+
+.textsize{
+    font-size: .8em!important;
+}
+
+.textsizebtn-1{
+    font-size: .73em!important;
+}
+
+.textsize-1{
+    font-size: .6em!important;
+}
+
+.btn{
+    border-radius: .9rem;
+}
+.bottom{
+    background-color: #f1f0f0;
+    border-color: #dadada;
+}
+
+.container-custom{
+    padding-top: 3em;
+    padding-left: 1.7em;
+}
+
+.top{
+    background-color: white;
+    border-color: #dadada;
+}
+
+.graph{
+    width: 100%;
+    height: auto;
+    padding-bottom: .3em;
+}
+
+.fidelity-group{
+    border: 1px solid #dadada;
+    border-radius: .5em;
+}
+
+.custom-container{
+    padding-top: 2em;
+}
+
+.price-1{
+    color: #dadada;
+    padding-left: 2em;
+}
+
+.new-price{
+    
+    padding-left: 9em;
+    color: black;
+    width: 0; 
+  height: 0; 
+}
+
+.fidelity{
+    font-size: 15px;
+}
+.fidelitybk{
+    font-size:10px;
+    color: #747474;
+}
+
+.legend{
+    padding: .3em;
+    background-color: #ebebeb;
+    font-size: 10px;
+}

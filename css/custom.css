@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Brush Script";
+    src: url("../fonts/BrushScriptStd.ttf") format("truetype");
+}
+.nav-colour{
+    background-color:#a51d21!important; 
+}
+
+.cutlery-color{
+    color: white;
+}
+.cutlery {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .cutlery span {
+    display: inline-block;
+    position: relative;  
+  }
+
+  .findout{
+      border: 2px solid white;
+      border-radius: 0;
+      background-color: #100e0f;
+      }
+  .padding-left{
+    padding-left: 2em;
+    max-width: 29em;
+  }
+
+  
+.img-left {
+    width: auto;
+    height: 20em;
+}
+.inner-row{
+    padding: 1em;
+    background-color: #100e0f;
+}
+  .cutlery span:before,
+  .cutlery span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 3px solid white;
+    top: 0;
+    width: 50px;
+  }
+  .meal{
+      color: white;
+  }
+  .cutlery span:before {
+    right: 100%;
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+  .cutlery span:after {
+    left: 100%;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .olupate{
+      padding-top: 2em;
+  }
+
+  .congue{
+    font-size: 1.5em;
+  }
+  .card{
+    width: 20rem;
+    height: 8rem;
+    border-radius: 0;
+    background-color: rgb(182, 182, 182);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+    filter: alpha(opacity=50);  /* IE 5-7 */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
+    opacity: 0.5;               /* Good browsers */
+
+  }
+
+  .menu-heading{
+    font-family: cursive;
+    color: red;
+    margin-top: 0;
+    font-size: 2em;
+  }
+  .our-menu{
+    margin: 10em;
+    position: relative;
+    margin-top: unset;
+    top: 10%;
+    box-shadow:inset 0 0 0 2000px rgba(207, 207, 207, 0.3);
+  }
+
+  .nav-color{
+      background-color: black;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+      filter: alpha(opacity=50);  /* IE 5-7 */
+      -moz-opacity: 0.5;          /* Netscape */
+      -khtml-opacity: 0.5;        /* Safari 1.x */
+      opacity: 0.5;               /* Good browsers */
+  }
+.body-img{
+    background-image: url("../assets/images/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35em;
+    box-shadow:inset 0 0 0 2000px rgba(29, 29, 29, 0.3);
+}
+
+.menu-bg{
+    background-image: url("../assets/images/mbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    box-shadow:inset 0 0 0 2000px rgba(29, 29, 29, 0.3);
+}
+
+.storybg{
+    background-color: orange;
+    z-index: 1;
+}
+.heading{
+    padding-top: 2em;
+}
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev		 { left: -25%; }
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+
+body{
+    overflow-x: hidden;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .img-left{
+    width: auto;
+    height: 10em;
+    }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    box-shadow:inset 0 0 0 2000px rgba(7, 7, 7, 0.3);
+}
+
+.storybg::after{
+        position: absolute;
+        top: 100%;
+        left: 40%;
+        content: '';
+        width: 10px;
+        height: auto;
+        border-top: solid 15px orange;
+        border-left: solid 15px transparent;
+        border-right: solid 15px transparent;
+}
+
+.storybg1{
+    background-color: rgb(91, 243, 111);
+    z-index: 1;
+}
+
+.storybg1::after{
+        position: absolute;
+        bottom: 100%;
+        left: 40%;
+        content: '';
+        width: 10px;
+        height: auto;
+        border-bottom: solid 15px rgb(91, 243, 111);
+        border-left: solid 15px transparent;
+        border-right: solid 15px transparent;
+}
+.story-text{
+    max-width:14em;
+}
+.overflowimg{
+    background-image: url("../assets/images/modal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 30em;
+}
+
+.secondimg{
+    
+    background-image: url("../assets/images/g1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 15em;
+}
+.tasty{
+    font-family: cursive;
+    color: white;
+    font-size: 2em;
+
+}
+.spicy{
+    font-family: "Brush Script";
+    font-size: 3.5em;
+    color: white;
+}
+.top-padding{
+    padding-top: 4em;
+    padding-bottom: 1em;
+}
+.mainlogo{
+    width: auto;
+    height: 80px;
+}
+.nav-link{
+    color: white!important;
+}
